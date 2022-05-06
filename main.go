@@ -9,7 +9,7 @@ func main() {
 	var message string
 	fmt.Println("Enter the message")
 	fmt.Scan(&message)
-	//loop ti iterate
+	//loop to iterate
 	for i := 0; i < len(message); i++ {
 		c := message[i]
 		//condition : if your letter <x , everything is simple, but else you have to minus from the alphabet
